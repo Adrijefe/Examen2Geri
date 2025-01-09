@@ -33,13 +33,13 @@ class Reserva {
 
 public class Ejercicio2 {
             public static void main(String[] args) {
-                ArrayList<Reserva> reservasH1 = new ArrayList<>();
-                reservasH1.add(new Reserva("Alvarito",2,5));
-                reservasH1.add(new Reserva("Josevi", 10,12));
-                reservasH1.add(new Reserva("Antonio",1,2));
+                ArrayList<Reserva> reservasH = new ArrayList<>();
+                reservasH.add(new Reserva("Alvarito",2,5));
+                reservasH.add(new Reserva("Josevi", 10,12));
+                reservasH.add(new Reserva("Antonio",1,2));
 
                 Map<Integer, List<Reserva>> reservas = new ConcurrentHashMap<>();
-                reservas.put(200,reservasH1);
+                reservas.put(103,reservasH);
 
 
 
