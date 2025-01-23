@@ -1,11 +1,7 @@
-package HashMap;
-
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Executors;
-import java.util.function.BiFunction;
 
 public class Ejercicio3 {
    static class GroupManager{

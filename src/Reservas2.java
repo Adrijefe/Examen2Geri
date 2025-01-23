@@ -1,9 +1,6 @@
-package HashMap;
-
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class Reservas2 {
     record Reserva (String n, int i, int f){}
